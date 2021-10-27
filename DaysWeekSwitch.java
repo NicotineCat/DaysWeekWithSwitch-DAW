@@ -3,7 +3,7 @@ public class DaysWeekSwitch {
 		//Se genera un número al azar entre 1 y 7
 		int DIAS = 7;
 		int azar = (int) (Math.random() * DIAS) + 1;
-		String dia;
+		String dia = "";
 		switch (azar) {
 			case 1:
 				dia = "Monday";
